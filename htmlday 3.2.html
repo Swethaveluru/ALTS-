@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<style>
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border- box;
+  font family: Arial, Helvetica, sans-scrif;
+}
+.keyboard- base {
+  max-width: 1085px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(197, 197, 197);
+  border- radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(30, 30px);
+  grid-template-rows: repeat(5, 60px);
+  grid-gap: 5px;
+}
+.key{
+  background-color: rgba(243, 243, 243);
+  border: 2px solid black;
+  border- radius: 5px;
+  grid-column: span 2;
+  font- size: 20px;
+  text-align: center;
+  padding-top: 17px;
+}
+.keyhover {
+  border: 1px solid #eeeeee;
+}
+.delete {
+  grid-column: span 4;
+}
+.tab {
+  grid-column: span 3;
+}
+.backslash {
+  grid-column: span 3;
+}
+.capslock {
+  grid-column: span 4;
+}
+.return {
+  grid-column: span 4;
+}
+.leftshift {
+  grid-column: span 5;
+}
+.rightshift {
+  grid-column: span 5;
+}
+.leftctrl {
+  grid-column: span 3;
+}
+.command {
+  grid-column: span 3;
+  font- size: 14px;
+}
+.space {
+  grid-column: span 13;
+}
+.special {
+  grid-column: span 4;
+}
+</style>
+<body>
+  <div class="Keyboard-base">
+    <div class="Key">~</div>
+    <div  class="Key">1</div>
+    <div  class="Key">2</div>
+    <div  class="Key">3</div>
+    <div  class="Key">4</div>
+    <div  class="Key">5</div>
+    <div  class="Key">6</div>
+    <div  class="Key">7</div>
+    <div class="Key">8</div>
+    <div  class="Key">9</div>
+    <div  class="Key">0</div>
+    <div  class="Key"> - </div>
+    <div  class="Key">+</div>
+    <div  class="Key delete">Delete</div>
+    <div  class="Key tab">Tab</div>
+    <div  class="Key">Q</div>
+    <div  class="Key">W</div>
+    <div  class="Key">E</div>
+    <div  class="Key">R</div>
+    <div class="Key">T</div>
+    <div  class="Key">Y</div>
+    <div  class="Key">U</div>
+    <div  class="Key">I</div>
+    <div  class="Key">O</div>
+    <div  class="Key">P</div>
+    <div  class="Key">[</div>
+    <div  class="Key">]</div>
+    <div class="Key backslash">\</div>
+    <div  class="Key capslock">capslock</div>
+    <div  class="Key">A</div>
+    <div  class="Key">S</div>
+    <div  class="Key">D</div>
+    <div  class="Key">F</div>
+    <div  class="Key">G</div>
+    <div  class="Key">H</div>
+    <div  class="Key">J</div>
+    <div  class="Key">K</div>
+    <div  class="Key">L</div>
+    <div  class="Key">;</div>
+    <div class="Key">`</div>
+    <div  class="Key return">return</div>
+    <div  class="Key leftshift">shift</div>
+    <div  class="Key">Z</div>
+    <div  class="Key">X</div>
+    <div  class="Key">C</div>
+    <div  class="Key">V</div>
+    <div  class="Key">B</div>
+    <div  class="Key">N</div>
+    <div  class="Key">M</div>
+    <div  class="Key">,</div>
+    <div class="Key">/</div>
+    <div  class="Key rightshift">shift</div>
+    <div  class="Key leftctrl">ctrl</div>
+    <div  class="Key">Alt</div>
+    <div  class="Key command">command</div>
+    <div  class="Key space">space</div>
+    <div  class="Key command">command</div>
+    <div  class="Key">Alt</div>
+    <div class="Key">Ctrl</div>
+    <div  class="Key">fn</div>
+    <div  class="Key special"> Grid example</div>
+    <div  class="Key"> - </div>
+    <div  class="Key">+</div>
+  </div>
+</body>
+</html>
